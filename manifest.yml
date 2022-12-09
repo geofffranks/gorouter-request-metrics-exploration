@@ -1,0 +1,6 @@
+---
+applications:
+  - name: explore
+    buildpack: go_buildpack
+    env:
+      GO_INSTALL_PACKAGE_SPEC: explore/server
